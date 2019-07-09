@@ -203,9 +203,16 @@ server {
 
 ### Server - Nodejs
 
-To research
+Researching
+
 * [Threads in NodeJs — Performance Optimization](https://medium.com/tech-tajawal/threading-in-nodejs-5d966a3b9858)
 * [Using connection pools](https://www.npmjs.com/package/mysql2#using-connection-pools)
+
+### Nginx
+
+* Configure gzip compression with NGINX
+	* <https://www.techrepublic.com/article/how-to-configure-gzip-compression-with-nginx/>
+	* <https://stackoverflow.com/questions/12640014/enable-gzip-for-css-and-js-files-on-nginx-server-for-magento>
 
 ### Database
 
