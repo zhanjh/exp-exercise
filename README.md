@@ -207,6 +207,7 @@ Researching
 
 * [Threads in NodeJs — Performance Optimization](https://medium.com/tech-tajawal/threading-in-nodejs-5d966a3b9858)
 * [Using connection pools](https://www.npmjs.com/package/mysql2#using-connection-pools)
+* [Production best practices: performance and reliability - Express](https://expressjs.com/en/advanced/best-practice-performance.html)
 
 ### Nginx
 
