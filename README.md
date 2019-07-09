@@ -19,7 +19,7 @@ Sub Project
 
 Install MariaDB or MySQL first
 
-Build contacts database
+Build contacts database, <https://github.com/zhanjh/exp-server#build-dev-environment>
 
 ```
 mysql -uroot -p < data/mysql.sql
@@ -52,7 +52,7 @@ git clone https://github.com/zhanjh/exp-server
 
 Edit local config `config/config.local.js`
 
-```
+```js
 /* eslint-env node */
 module.exports = {
   mysql: {
@@ -215,11 +215,12 @@ To research
 * ORDER BY Optimization
 * [optimize COUNT(*) performance](https://stackoverflow.com/questions/19267507/how-to-optimize-count-performance-on-innodb-by-using-index)
 
-## CI/CD
+## devOps
 
-* Automated testing
+* Unit testing: jest
+* Load testing: Apache Bench
 
 ## Bugs
 
-* Keyword is not clear from the const object in js
-	* Search -> show detail -> list -> pagination
+* Keyword is not cleared from the const object in js
+	* Reproduce: Search -> show detail -> list -> pagination
