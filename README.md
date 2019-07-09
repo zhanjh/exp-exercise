@@ -1,12 +1,17 @@
 # Expedia Technical Exercise
 
-
-## Released
-
+Pulished:
 
 * Landing: <http://exp.tecposter.cn/>
 * UI: <http://exp.tecposter.cn/expui.html>
 * Contact: <http://exp.tecposter.cn/contact/list>
+* API: <http://exp.tecposter.cn/api/contact/>
+
+Sub Project
+
+* exp-server: <https://github.com/zhanjh/exp-server>
+* exp-ui: <https://github.com/zhanjh/exp-ui>
+* exp-front: <https://github.com/zhanjh/exp-front>
 
 ## Deplyment
 
@@ -188,3 +193,33 @@ server {
     }
 }
 ```
+
+## Optimize
+
+### UI
+
+* Remove foundation components that not used
+	* Foundation for Sites Template: <https://github.com/zurb/foundation-sites-template>
+
+### Server - Nodejs
+
+To research
+* [Threads in NodeJs — Performance Optimization](https://medium.com/tech-tajawal/threading-in-nodejs-5d966a3b9858)
+* [Using connection pools](https://www.npmjs.com/package/mysql2#using-connection-pools)
+
+### Database
+
+To research
+
+* full text indexing
+* ORDER BY Optimization
+* [optimize COUNT(*) performance](https://stackoverflow.com/questions/19267507/how-to-optimize-count-performance-on-innodb-by-using-index)
+
+## CI/CD
+
+* Automated testing
+
+## Bugs
+
+* Keyword is not clear from the const object in js
+	* Search -> show detail -> list -> pagination
