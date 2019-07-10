@@ -121,7 +121,7 @@ git clone https://github.com/zhanjh/exp-front
 
 Edit local setting
 
-```
+```js
 // setting/setting.local.js
 export const localSetting = {
   apiURL: 'http://exp.tecposter.cn/api'
@@ -232,3 +232,4 @@ To research
 
 * Keyword is not cleared from the const object in js
 	* Reproduce: Search -> show detail -> list -> pagination
+* Sorting on age is opposite.
